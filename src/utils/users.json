@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "avatar": "https://cdna.iconscout.com/production/img/attHaQjnG3YXXPILn.459bba8.png?w=200&h=0",
+    "name": "Soheil Ghanbary",
+    "job_title": "برنامه نویس و توسعه دهنده وب",
+    "website": "novinbooster.ir",
+    "email": "soli.ghanbary@gmail.com",
+    "phone": "09308866063",
+    "city": "تهران",
+    "birthday": "1379/7/7",
+    "gender": "مرد",
+    "marital": "متاهل",
+    "about": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.",
+    "github": "github.com/soli",
+    "instagram": "instagram.com/soli",
+    "linkedin": "linkedin.com/in/soli",
+    "twitter": "twitter.com/soli",
+    "skills": [
+      "برنامه نویس وب",
+      "وردپرس",
+      "React.js",
+      "PWA",
+      "Flutter",
+      "Next.js",
+      "JavaScript",
+      "Html Css",
+      "TailwindCss",
+      "Express.js"
+    ],
+    "resumes": [
+      {
+        "name": "توسعه ارتباطات همراه",
+        "year": "1394"
+      },
+      {
+        "name": "کیان تلکام",
+        "year": "1395"
+      },
+      {
+        "name": "نوین بوستر",
+        "year": "1400"
+      }
+    ],
+    "languages": [
+      {
+        "name": "انگلیسی",
+        "level": "عالی"
+      },
+      {
+        "name": "فارسی",
+        "level": "مادری"
+      },
+      {
+        "name": "آلمانی",
+        "level": "متوسط"
+      }
+    ],
+    "educations": [
+      {
+        "name": "کاردانی حسابداری",
+        "year": "98"
+      },
+      {
+        "name": "کارشناسی کامپیوتر",
+        "year": "97"
+      },
+      {
+        "name": "شهید قارسی",
+        "year": "88"
+      }
+    ]
+  }
+]

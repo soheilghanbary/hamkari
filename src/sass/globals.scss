@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  user-select: none;
+  font-family: "Nunito", "irsans", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  direction: rtl;
+  @apply bg-lightest text-light-body dark:bg-darkest dark:text-dark-body duration-200 transition;
+}
+
+hr {
+  @apply my-6 border dark:border-neutral-800 border-slate-100;
+}
+
+body::-webkit-scrollbar {
+  // width: 0.5em;
+  width: 0;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #a1a1aa;
+  border-radius: 1rem;
+}
+
+.auth-container {
+  @apply fixed top-0 left-0 w-screen h-screen bg-lightest flex items-center justify-center dark:bg-darkest;
+}
+
+.scroller {
+  overflow: scroll auto;
+  scroll-snap-type: x mandatory;
+  @apply xl:overflow-hidden lg:overflow-hidden;
+  li {
+    scroll-snap-align: center;
+    @apply my-1 mx-1;
+  }
+}
+
+.fadeIn {
+  animation: fade-in 300ms;
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(2rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+.fadeUp {
+  animation: fade-up 350ms;
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(1rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+.fading {
+  animation: fading 2000ms linear 0s infinite alternate-reverse both;
+  @keyframes fading {
+    from {
+      transform: translateY(1rem);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+}

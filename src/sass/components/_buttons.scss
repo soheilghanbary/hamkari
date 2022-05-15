@@ -1,0 +1,15 @@
+.btn {
+    @apply font-medium text-white rounded-lg py-2 px-4 leading-7 active:scale-95 duration-200;
+
+    &.primary {
+        @apply bg-primary;
+    }
+
+    &-sm {
+        @apply text-sm leading-7;
+    }
+
+    &.full-rounded {
+        @apply active:scale-90 leading-10 px-8 rounded-full;
+    }
+}

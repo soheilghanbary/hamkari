@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'irsans';
+    font-weight: 400;
+    src: url('./iranyekan-regular.woff2');
+}
+
+@font-face {
+    font-family: 'irsans';
+    font-weight: 600;
+    src: url('./iranyekan-bold.woff2');
+}
+
+/* @font-face {
+    font-family: 'irsans';
+    font-weight: 400;
+    src: url('./dana-fanum-regular.woff2');
+}
+
+@font-face {
+    font-family: 'irsans';
+    font-weight: 600;
+    src: url('./dana-fanum-bold.woff2');
+} */
+
+/* @font-face {
+    font-family: 'irsans';
+    font-weight: 400;
+    src: url('./IRANSansWeb\(FaNum\).woff2');
+}
+
+@font-face {
+    font-family: 'irsans';
+    font-weight: 600;
+    src: url('./IRANSansWeb\(FaNum\)_Bold.woff2');
+} */

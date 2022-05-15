@@ -1,0 +1,32 @@
+.nav {
+  @apply flex xl:text-base lg:text-sm items-center justify-between dark:bg-darker bg-lighter p-4 rounded-lg;
+
+  &-logo {
+    @apply flex items-center gap-4;
+    img {
+      @apply w-12 h-12;
+    }
+    h3 {
+      @apply font-semibold text-lg;
+    }
+  }
+
+  &-list {
+    @apply xl:flex lg:flex hidden items-center gap-1;
+  }
+
+  &-item {
+    @apply px-6 py-2 hover:text-primary duration-200 cursor-pointer text-sm xl:text-base;
+  }
+
+  &-btn {
+    @apply flex items-center gap-2 px-4 py-2 leading-7 rounded-lg bg-lightest dark:bg-darkest active:scale-90 font-medium focus:ring-2 ring-primary duration-150;
+
+    &.circle {
+      @apply rounded-full flex items-center justify-center p-2;
+      svg {
+        @apply w-7 h-7;
+      }
+    }
+  }
+}

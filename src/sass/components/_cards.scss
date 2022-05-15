@@ -1,0 +1,52 @@
+.auth-card {
+  @apply max-w-md w-full mx-auto rounded-xl p-10 bg-lighter dark:bg-darker;
+
+  .header {
+    @apply flex flex-col gap-4;
+
+    h1 {
+      @apply text-2xl text-center font-semibold;
+    }
+
+    h4 {
+      @apply text-sm text-center;
+    }
+  }
+
+  form {
+    @apply flex flex-col gap-4;
+  }
+}
+
+.profile__card {
+  @apply rounded-xl bg-lighter shadow-md shadow-gray-300/30 dark:bg-darker dark:shadow-none flex p-5 lg:p-10 lg:flex-row lg:text-right;
+  &__name {
+    @apply text-sm lg:text-xl;
+  }
+  &__role {
+    @apply text-xs lg:text-base;
+  }
+  &__subtitle {
+    @apply text-xs lg:text-base;
+  }
+}
+
+.card__list {
+  @apply grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-4 mt-4;
+}
+
+.user__card {
+  @apply rounded-xl bg-lighter items-center shadow-md shadow-gray-300/30 dark:bg-darker dark:shadow-none p-5 flex gap-4 w-full lg:flex-row md:flex-row lg:text-right text-right;
+  &__image {
+    @apply w-14 h-14 bg-cover rounded-full;
+  }
+  &__content {
+    @apply flex flex-col gap-2;
+    h2 {
+      @apply text-base;
+    }
+    p {
+      @apply text-sm dark:text-gray-400 text-gray-500;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.edit-container {
+  @apply grid xl:grid-cols-12 gap-5;
+}
+
+.edit-details {
+  @apply xl:col-span-3 dark:bg-darker rounded-lg bg-lighter;
+}
+
+.edit-outlet {
+  @apply xl:col-span-6 dark:bg-darker rounded-lg bg-lighter;
+}
+
+.edit-info {
+  @apply xl:col-span-3 dark:bg-darker rounded-lg bg-lighter;
+}
+
+.edit-details-nav {
+  @apply flex flex-col gap-4 p-4;
+  li {
+    @apply flex items-center px-4 gap-4 py-3 rounded-xl hover:text-primary hover:bg-lightest hover:ring-2 ring-primary dark:hover:bg-darkest duration-200 cursor-pointer font-medium;
+    svg {
+      @apply w-6 h-6;
+    }
+  }
+}
